@@ -5,7 +5,7 @@ $(function() {
     var layer = layui.layer
     $('#btnLogout').on('click', function() {
         // 提示用户是否确认退出
-        layer.confirm('确定推出登入吗?', { icon: 3, title: '提示' }, function(index) {
+        layer.confirm('确定退出登入吗?', { icon: 3, title: '提示' }, function(index) {
             //do something
             // 1. 清空本地存储中的 token
             localStorage.removeItem('token')
